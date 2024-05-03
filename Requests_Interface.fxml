@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Requests_Controller">
+   <children>
+      <TextArea fx:id="ta1" layoutX="5.0" layoutY="57.0" prefHeight="256.0" prefWidth="591.0" />
+      <Label fx:id="l1" layoutX="264.0" layoutY="24.0" text="Requests">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="chob1" layoutX="310.0" layoutY="339.0" prefWidth="150.0" styleClass="Button" stylesheets="@Style.css" />
+      <Button fx:id="butt1" layoutX="484.0" layoutY="335.0" mnemonicParsing="false" onAction="#ConfirmButtIsClicked" prefHeight="25.0" prefWidth="94.0" styleClass="Button" stylesheets="@Style.css" text="Confirm" />
+      <TextField fx:id="tf1" layoutX="58.0" layoutY="339.0" prefHeight="25.0" prefWidth="97.0" styleClass="Button" stylesheets="@Style.css" text="Enter ID" />
+      <Button fx:id="butt2" layoutX="5.0" layoutY="367.0" mnemonicParsing="false" onAction="#BackbuttIsClicked" prefHeight="25.0" prefWidth="94.0" styleClass="Button" stylesheets="@Style.css" text="Back" />
+      <Label fx:id="l2" layoutX="337.0" layoutY="322.0" text="Chose an action">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="l3" layoutX="256.0" layoutY="5.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="chob2" layoutX="168.0" layoutY="339.0" prefHeight="25.0" prefWidth="132.0" styleClass="Button" stylesheets="@Style.css" />
+      <Label fx:id="l4" layoutX="174.0" layoutY="322.0" text="Chose Request type">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

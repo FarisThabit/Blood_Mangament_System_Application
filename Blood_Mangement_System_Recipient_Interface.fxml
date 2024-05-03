@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="Background" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Blood_Mangement_Recipient_Interface_Controller">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="butt1" layoutX="224.0" layoutY="120.0" mnemonicParsing="false" onAction="#RBDbuttisclicked" prefHeight="44.0" prefWidth="180.0" styleClass="Button" stylesheets="@Style.css" text="Request Blood Donation" />
+            <Button fx:id="butt2" layoutX="3.0" layoutY="328.0" mnemonicParsing="false" onAction="#exitButtIsClicked" prefHeight="32.0" prefWidth="53.0" styleClass="Button" stylesheets="@Style.css" text="Exit" />
+            <Button fx:id="Butt3" layoutX="220.0" layoutY="171.0" mnemonicParsing="false" onAction="#UpdatePersonalInfoButtIsClicked" prefHeight="47.0" prefWidth="187.0" styleClass="Button" stylesheets="@Style.css" text="Update Personal Info" />
+            <Label fx:id="l2" layoutX="133.0" layoutY="34.0" textFill="RED">
+               <font>
+                  <Font name="Arial Narrow" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="Butt4" layoutX="220.0" layoutY="227.0" mnemonicParsing="false" onAction="#updateMedicalHistoryButtIsCliced" prefHeight="47.0" prefWidth="187.0" styleClass="Button" stylesheets="@Style.css" text="Show Medical History" />
+            <CheckBox fx:id="ch1" layoutX="231.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#checkBoxClicked" text="I agree to request blood" textFill="#f80101" />
+            <Button fx:id="Butt5" layoutX="220.0" layoutY="281.0" mnemonicParsing="false" onAction="#CheckRequestStatusButtIsClicked" prefHeight="47.0" prefWidth="187.0" styleClass="Button" stylesheets="@Style.css" text="Check request status" />
+            <Label fx:id="l2" layoutX="227.0" layoutY="14.0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="l4" layoutX="253.0" layoutY="41.0" text="Request Type">
+               <font>
+                  <Font name="Arial Narrow Bold" size="20.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="chb1" layoutX="225.0" layoutY="65.0" prefHeight="25.0" prefWidth="166.0" styleClass="Button" stylesheets="@Style.css" />
+            <Label fx:id="l3" layoutX="205.0" layoutY="19.0" textFill="RED">
+               <font>
+                  <Font name="Arial Narrow" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <Label fx:id="l1" text="Welcome Recipient" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="31.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>

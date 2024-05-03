@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Report_Controller">
+   <children>
+      <Label fx:id="l1" layoutX="223.0" layoutY="4.0" text="Recipents Statistics">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="l18" layoutX="221.0" layoutY="191.0" text="Donors Statistics">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="l2" layoutX="14.0" layoutY="34.0" prefHeight="26.0" prefWidth="250.0" text="Number of recipent requsting A+:">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l3" layoutX="300.0" layoutY="30.0" prefHeight="26.0" prefWidth="250.0" text="Number of recipent requsting A-:">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l6" layoutX="14.0" layoutY="74.0" prefHeight="26.0" prefWidth="250.0" text="Number of recipent requsting B+:">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l7" layoutX="300.0" layoutY="72.0" prefHeight="26.0" prefWidth="250.0" text="Number of recipent requsting B-:">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l10" layoutX="14.0" layoutY="115.0" prefHeight="26.0" prefWidth="250.0" text="Number of recipent requsting O+:">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l11" layoutX="300.0" layoutY="115.0" prefHeight="26.0" prefWidth="250.0" text="Number of recipent requsting O-:">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l14" layoutX="14.0" layoutY="163.0" prefHeight="26.0" prefWidth="265.0" text="Number of recipent requsting AB+:">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l15" layoutX="300.0" layoutY="158.0" prefHeight="26.0" prefWidth="273.0" text="Number of recipent requsting AB-:">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l4" layoutX="114.0" layoutY="57.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l5" layoutX="383.0" layoutY="57.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l8" layoutX="115.0" layoutY="98.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l9" layoutX="383.0" layoutY="98.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l13" layoutX="386.0" layoutY="142.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l12" layoutX="116.0" layoutY="143.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l17" layoutX="386.0" layoutY="187.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l16" layoutX="117.0" layoutY="188.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l19" layoutX="17.0" layoutY="219.0" prefHeight="26.0" prefWidth="250.0" text="Number of Donors donated A+:">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l20" layoutX="311.0" layoutY="217.0" prefHeight="26.0" prefWidth="250.0" text="Number of Donors donated A-:">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l23" layoutX="25.0" layoutY="263.0" prefHeight="26.0" prefWidth="250.0" text="Number of Donors donated B+:">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l24" layoutX="311.0" layoutY="259.0" prefHeight="26.0" prefWidth="250.0" text="Number of Donors donated B-:">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l27" layoutX="25.0" layoutY="303.0" prefHeight="26.0" prefWidth="250.0" text="Number of Donors donated O+">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l28" layoutX="311.0" layoutY="303.0" prefHeight="26.0" prefWidth="250.0" text="Number of Donors donated O-">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l31" layoutX="25.0" layoutY="345.0" prefHeight="26.0" prefWidth="265.0" text="Number of Donors donated AB+">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l32" layoutX="311.0" layoutY="342.0" prefHeight="26.0" prefWidth="273.0" text="Number of Donors donated AB-">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l21" layoutX="130.0" layoutY="244.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l22" layoutX="397.0" layoutY="244.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l25" layoutX="130.0" layoutY="286.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l26" layoutX="397.0" layoutY="285.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l30" layoutX="397.0" layoutY="328.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l29" layoutX="130.0" layoutY="331.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l34" layoutX="397.0" layoutY="370.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="l33" layoutX="132.0" layoutY="373.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="butt1" layoutX="3.0" layoutY="372.0" mnemonicParsing="false" onAction="#BackButtIsClicked" prefHeight="25.0" prefWidth="65.0" styleClass="Button" stylesheets="@Style.css" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="Background" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Blood_Mangement_System_Home_Controller">
+   <top>
+      <Label fx:id="l1" prefHeight="48.0" prefWidth="404.0" text="Welcome to the blood mangement system" textAlignment="RIGHT" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="28.0" />
+         </font>
+      </Label>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="Background" stylesheets="@Style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Separator layoutX="297.0" layoutY="-3.0" orientation="VERTICAL" prefHeight="353.0" prefWidth="13.0" style="-fx-border-width: 5;" />
+            <Button fx:id="butt2" layoutX="413.0" layoutY="262.0" mnemonicParsing="false" onAction="#loginbuttclicked" prefHeight="34.0" prefWidth="68.0" styleClass="Button" stylesheets="@Style.css" text="Login" />
+            <Button fx:id="butt1" layoutX="94.0" layoutY="262.0" mnemonicParsing="false" onAction="#signupbuttclicked" prefHeight="34.0" prefWidth="68.0" styleClass="Button" stylesheets="@Style.css" text="Sing up" />
+            <ImageView fx:id="imgv1" fitHeight="150.0" fitWidth="200.0" layoutX="53.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@signup icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgv2" fitHeight="150.0" fitWidth="200.0" layoutX="369.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@login icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

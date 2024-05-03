@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="Background" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Blood_Mangement_Donor_Interface_Controller">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="butt1" layoutX="210.0" layoutY="181.0" mnemonicParsing="false" onAction="#DonateButtIsClicked" prefHeight="36.0" prefWidth="159.0" styleClass="Button" stylesheets="@Style.css" text="Donate" />
+            <Button fx:id="butt2" layoutX="3.0" layoutY="304.0" mnemonicParsing="false" onAction="#exitbuttisclicked" prefHeight="36.0" prefWidth="79.0" styleClass="Button" stylesheets="@Style.css" text="Home" />
+            <Label fx:id="l5" layoutX="372.0" layoutY="74.0" text="Update your personal info">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="butt3" layoutX="210.0" layoutY="69.0" mnemonicParsing="false" onAction="#UpdateButtisPressed" prefHeight="36.0" prefWidth="156.0" styleClass="Button" stylesheets="@Style.css" text="Update" />
+            <Label fx:id="l7" layoutX="380.0" layoutY="187.0" text="To donate">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="l8" layoutX="164.0" layoutY="2.0" textFill="RED">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="l6" layoutX="380.0" layoutY="131.0" text="Show medical history">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="butt4" layoutX="211.0" layoutY="126.0" mnemonicParsing="false" onAction="#ShowMedicHbuttIsClicked" prefHeight="36.0" prefWidth="155.0" styleClass="Button" stylesheets="@Style.css" text="Show" />
+            <Button fx:id="butt5" layoutX="210.0" layoutY="234.0" mnemonicParsing="false" onAction="#CheckRequestButtIsClicked" prefHeight="36.0" prefWidth="159.0" styleClass="Button" stylesheets="@Style.css" text="Check" />
+            <Label fx:id="l9" layoutX="386.0" layoutY="240.0" text="Check Requests">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <Label fx:id="l1" prefHeight="55.0" prefWidth="267.0" text="Welcome Donor Again" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="35.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>

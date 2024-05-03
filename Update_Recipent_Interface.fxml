@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Update_Recipent_Interface">
+   <children>
+      <Label fx:id="l1" layoutX="161.0" layoutY="50.0" text="Rewrite the info you want to update">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf1" layoutX="214.0" layoutY="95.0" onKeyTyped="#UserEnteredSomethingtoUpdate" styleClass="Button" stylesheets="@Style.css" />
+      <TextField fx:id="tf2" layoutX="214.0" layoutY="138.0" onKeyTyped="#UserEnteredSomethingtoUpdate" styleClass="Button" stylesheets="@Style.css" />
+      <TextField fx:id="tf3" layoutX="218.0" layoutY="181.0" onKeyTyped="#UserEnteredSomethingtoUpdate" prefHeight="25.0" prefWidth="149.0" styleClass="Button" stylesheets="@Style.css" />
+
+
+      <Button fx:id="Butt1" layoutX="256.0" layoutY="227.0" mnemonicParsing="false" onAction="#UpdateButtIsClicked" prefHeight="25.0" prefWidth="66.0" styleClass="Button" stylesheets="@Style.css" text="Update" />
+      <Button fx:id="Butt2" layoutX="4.0" layoutY="365.0" mnemonicParsing="false" onAction="#BackButtIsClicked" prefHeight="32.0" prefWidth="56.0" styleClass="Button" stylesheets="@Style.css" text="Back" />
+      <Label fx:id="l5" layoutX="161.0" layoutY="27.0" textFill="RED">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

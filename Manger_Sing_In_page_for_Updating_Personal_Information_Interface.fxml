@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Manger_Sing_In_page_for_Updating_Personal_Information_Controller">
+   <children>
+      <Label fx:id="l1" layoutX="204.0" layoutY="53.0" text="Fill the required info">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="l2" layoutX="165.0" layoutY="144.0" text="ID">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="l3" layoutX="167.0" layoutY="185.0" text="Job type">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf1" layoutX="219.0" layoutY="147.0" styleClass="Button" stylesheets="@Style.css" />
+      <ChoiceBox fx:id="chb1" layoutX="253.0" layoutY="188.0" prefWidth="150.0" styleClass="Button" stylesheets="@Style.css" />
+      <Label fx:id="l4" layoutX="197.0" layoutY="93.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="butt1" layoutX="205.0" layoutY="239.0" mnemonicParsing="false" onAction="#ShowAndUpdatePersonalInfoISClicked" prefHeight="30.0" prefWidth="206.0" styleClass="Button" stylesheets="@Style.css" text="Show &amp; Update Personal Info" />
+      <Button fx:id="butt2" layoutX="14.0" layoutY="356.0" mnemonicParsing="false" onAction="#BackButtIsClicked" prefHeight="30.0" prefWidth="75.0" styleClass="Button" stylesheets="@Style.css" text="Back" />
+   </children>
+</AnchorPane>

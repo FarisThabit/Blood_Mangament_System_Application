@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Show_And_Update_Medical_History">
+   <children>
+      <Label fx:id="l1" layoutX="114.0" layoutY="96.0" text="Blood Type:">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="l2" layoutX="114.0" layoutY="130.0" text="Age:">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="l3" layoutX="115.0" layoutY="165.0" text="Weight:">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="l4" layoutX="117.0" layoutY="200.0" text="Major_Diseases:">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf1" layoutX="244.0" layoutY="129.0" prefHeight="25.0" prefWidth="130.0" styleClass="Button" stylesheets="@Style.css" />
+      <TextField fx:id="tf2" layoutX="244.0" layoutY="164.0" prefHeight="25.0" prefWidth="130.0" styleClass="Button" stylesheets="@Style.css" />
+      <ChoiceBox fx:id="chb1" layoutX="258.0" layoutY="236.0" prefHeight="25.0" prefWidth="101.0" styleClass="Button" stylesheets="@Style.css" />
+      <Button fx:id="Butt2" layoutX="7.0" layoutY="369.0" mnemonicParsing="false" onAction="#BackButtISclicked" prefHeight="25.0" prefWidth="54.0" styleClass="Button" stylesheets="@Style.css" text="Back" />
+      <Label fx:id="l11" layoutX="393.0" layoutY="130.0" text="Modify your age">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="l111" layoutX="393.0" layoutY="165.0" text="Modify your weight">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="Butt11" layoutX="218.0" layoutY="299.0" mnemonicParsing="false" onAction="#UpdateButtIsClicked" prefHeight="46.0" prefWidth="185.0" styleClass="Button" stylesheets="@Style.css" text="Update Medical history info" />
+      <Label fx:id="l5" layoutX="247.0" layoutY="96.0" textFill="RED">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="l6" layoutX="176.0" layoutY="130.0" textFill="RED">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="l7" layoutX="186.0" layoutY="165.0" textFill="RED">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="l8" layoutX="258.0" layoutY="200.0" textFill="RED">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
